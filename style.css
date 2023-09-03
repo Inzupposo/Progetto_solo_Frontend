@@ -1,0 +1,187 @@
+*{
+    font-family: 'Rajdhani', sans-serif;
+}
+h1, h2{
+    font-family: 'Nova Square', cursive; 
+}
+main{
+    background-color: #ececec;
+}
+a{
+    font-size: 22px;
+}
+p{
+    font-weight: 500;
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: darkred;
+}
+
+/* inizio css navbar */
+.logo-custom{
+    height: 50px;
+    width: 100px;
+}
+/* fine css navbar */
+
+/* inizio css header */
+.header-custom{
+    background: linear-gradient(rgba(255,255,255, 1), rgba(255,255,255, 0.1)), url(./media/mountains2.png), url(./media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.header-custom h1{
+    letter-spacing: 50px;
+    font-size: 70px;
+}
+@media screen and (max-width: 576px){
+    .header-custom h1{
+        letter-spacing: 10px;
+    }
+}
+/* fine css header */
+
+/* inzio css 1° section */
+.paragrafo{
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+}
+.paragrafo::before{
+    content: open-quote;
+    color: darkred;
+    font-size: 60px;
+    position: absolute;
+    left: 10px;
+    top: -30px;
+    font-weight: 600;
+}
+.paragrafo::after{
+    content: close-quote;
+    color: darkred;
+    font-size: 60px;
+    position: absolute;
+    font-weight: 600;
+}
+.border-custom{
+    border: 2px solid darkred;
+    width: 200px;
+    position: relative;
+}
+.border-custom::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    border: 2px solid darkred;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icon-custom{
+    color: darkred;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+button{
+    margin: 0px auto;
+    display: block;
+    padding: 10px 0px;
+    background-color: darkred;
+    border: 0px;
+    color: white;
+    width: 230px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.sfondo-custom{
+    background: url(./media/trees2.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/* fine css 1° section */
+
+/* inzio css 2° section */
+.border-left-custom{
+    border-left: 3px solid darkred;
+}
+.ball-line{
+    position: relative;
+}
+.ball-line::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid darkred;
+    position: absolute;
+    border-radius: 50%;
+    top: 0px;
+    left: -23px;
+}
+.bg-s2-custom{
+    background: url(./media/single.png), rgba(255,255,255, 1);
+    background-repeat: no-repeat;
+    background-position: 95% 101%;
+}
+/* fine css 2° section */
+
+/* inizio css 3° section */
+.container-img-team{
+    width: 180px;
+    height: 180px;
+    border: 2px solid darkred;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.img-team{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+i{
+    color: darkred;
+    margin: 0px 20px;
+}
+/* fine css 3° section */
+
+/* inizio css 4° section */
+.container-img-benefit{
+    width: 250px;
+    height: 250px;
+    border: 2px solid darkred;
+    border-radius: 50%;
+}
+.img-benefit{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+}
+.bg-s4-custom{
+    height: 60vh;
+    background: url(./media/other.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+/* fine css 4° section */
+
+/* inizio css footer  */
+footer{
+    background-color: darkred;
+    color: white;
+}
+footer h2{
+    color: white;
+}
+footer h4{
+    color: white;
+}
+/* fine css footer */
